@@ -5,10 +5,6 @@ li $t1, 0
 li $t4, 0
 li $t5, 1
 
-
-
-
-
 MAIN: andi  $t2,$s0, 1
       beq   $t2,$t5,LOOP1
       beq   $t2,$t4,LOOP0
@@ -35,4 +31,4 @@ LOOP1: addi $t1,$t1,1
 END:
 
 
-       
+      
